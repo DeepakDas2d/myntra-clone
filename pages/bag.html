@@ -14,26 +14,27 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <!-- ======== stylesheet ========= -->
-     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bag.css" />
     <!-- ========== favicon icon ========= -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="img/favicon/apple-touch-icon.png"
+      href="../img/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="img/favicon/favicon-32x32.png"
+      href="../img/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="img/favicon/favicon-16x16.png"
+      href="../img/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link rel="manifest" href="../img/favicon/site.webmanifest" />
 
     <title>Myntra Clone</title>
   </head>
@@ -41,7 +42,7 @@
     <header>
       <div class="logo__container">
         <a href="#"
-          ><img src="img/myntra_logo.webp" alt="logo" class="logo"
+          ><img src="../img/myntra_logo.webp" alt="logo" class="logo"
         /></a>
       </div>
       <!-- ====navbar===== -->
@@ -80,20 +81,25 @@
           <span class="action__name">Wishlist</span>
         </a>
 
-
         <a href="pages\bag.html" class="action__container">
-           <span class="material-symbols-outlined action__icon">shopping_bag</span>
+          <span class="material-symbols-outlined action__icon"
+            >shopping_bag</span
+          >
           <span class="action__name">Bag </span>
           <span class="bag-item-count">0</span>
-         </a>
+        </a>
       </div>
     </header>
     <main>
-      <div class="items-container">
-        
-      </div>
+      <div class="bag-page">
+        <div class="bag-items-container">
+          
+        </div>
+        <div class="bag-summary">
 
-     </main>
+        </div>
+      </div>
+    </main>
     <!-- ========== Footer ======== -->
     <footer>
       <div class="footer">
@@ -134,10 +140,10 @@
             <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
             <div class="footer__img__container">
               <a href="#">
-                <img src="img/footer-1.png" alt="img" class="footer__img" />
+                <img src="../img/footer-1.png" alt="img" class="footer__img" />
               </a>
               <a href="#">
-                <img src="img/footer-2.png" alt="img" class="footer__img" />
+                <img src="../img/footer-2.png" alt="img" class="footer__img" />
               </a>
             </div>
           </div>
@@ -157,14 +163,15 @@
         </div>
       </div>
 
-      <hr>
+      <hr />
       <div class="copyright">
         &copy; 2024 www.myntra-clone.com. All rights reserved By Deepak Das.
       </div>
     </footer>
     <!-- =========== Script ========= -->
 
-    <script src="scripts/item.js"></script>
-    <script src="scripts/index.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/item.js"></script>
+    <script src="../scripts/bag.js"></script>
   </body>
 </html>
